@@ -12,7 +12,7 @@ $sql="INSERT INTO `mainlogin` (`username`, `email`, `password`, `role`) VALUES (
 $query= mysqli_query($con,$sql);
 
 if($query){
-    Header("Location: admin_portada.php");
+    Header("Location: personal_portada.php");
     
 }
 else {
